@@ -2,7 +2,7 @@
 
 A Clojure compojure app designed to ... flip tables!
 
-Inspired by lyonsinbeta's app: [Table-Flip-As-A-Service (TFAAS)](https://github.com/lyonsinbeta/table-flip).
+A rewrite in clojure of lyonsinbeta's app: [Table Flipping as a Service (TFAAS)](https://github.com/lyonsinbeta/table-flip).
 
 ## Usage
 
