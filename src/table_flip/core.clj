@@ -34,7 +34,9 @@
 (defn greeting
   []
   (concat (hiccup/html 
-           [:h1 "Hello Table-Flipperz"]
+           [:h1 "Hello Table Flippers!"]
+           [:h2 "Use"]
+           (str "To receive flips make a Get request to http://flip.scrumple.net/[desired_flip]")
            [:h2 "The following flips are available:"]
            [:ul (for [x (keys (get-flips))] [:li (str "/" x )])])))
 
