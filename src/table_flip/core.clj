@@ -1,7 +1,8 @@
 (ns table-flip.core
   (:require [compojure.core :refer :all]
             [hiccup.core :as hiccup]
-            [org.httpkit.server :refer [run-server]])) ; httpkit is a server
+            [org.httpkit.server :refer [run-server]])
+  (:gen-class :main true)) ; httpkit is a server
 
 (defn get-flips
   "Builds a hashmap of the table-flips."
