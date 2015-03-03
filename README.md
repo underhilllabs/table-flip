@@ -10,6 +10,17 @@ A rewrite in clojure of lyonsinbeta's app: [Table Flipping as a Service (TFAAS)]
 lein run -m table-flip.core
 ```
 
+## Create an uberjar for deployment
+create an uberjar
+```
+lein uberjar
+```
+this will create target/table-flip-0.1.0-SNAPSHOT.jar which can be run with:
+```
+java -jar target/table-flip-0.1.0-SNAPSHOT.jar 
+```
+
+
 ## License
 
 Copyright © 2015 Bart Lantz
